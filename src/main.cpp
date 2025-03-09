@@ -1,6 +1,7 @@
 #include <spdlog/spdlog.h>
+#include <GLFW/glfw3.h>
 
 int main(int argc, const char** argv) {
-    SPDLOG_INFO("Hello, opengl!");
-    return 0;
+    // 시작을 알리는 로그
+    SPDLOG_INFO("Start program");
 }
